@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="388" viewBox="0 0 600 388">
+  <defs>
+    <filter id="S_E_E_A_L_L_C_U_P_S_" x="175" y="144" width="205" height="43" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.78"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-ux_webshop_styletile">
+      <rect width="600" height="388"/>
+    </clipPath>
+  </defs>
+  <g id="ux_webshop_styletile" clip-path="url(#clip-ux_webshop_styletile)">
+    <rect width="600" height="388" fill="#fff"/>
+    <g id="Rectangle_1497" data-name="Rectangle 1497" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="600" height="388" stroke="none"/>
+      <rect x="0.5" y="0.5" width="599" height="387" fill="none"/>
+    </g>
+    <g id="Rectangle_1498" data-name="Rectangle 1498" transform="translate(442 53)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="0.5" y="0.5" width="49" height="49" fill="none"/>
+    </g>
+    <g id="Rectangle_1499" data-name="Rectangle 1499" transform="translate(442 108)" fill="#dbdbdb" stroke="#707070" stroke-width="1">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="0.5" y="0.5" width="49" height="49" fill="none"/>
+    </g>
+    <g id="Rectangle_1500" data-name="Rectangle 1500" transform="translate(442 163)" fill="#adadad" stroke="#707070" stroke-width="1">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="0.5" y="0.5" width="49" height="49" fill="none"/>
+    </g>
+    <g id="Rectangle_1501" data-name="Rectangle 1501" transform="translate(442 218)" fill="#3bd063" stroke="#707070" stroke-width="1">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="0.5" y="0.5" width="49" height="49" fill="none"/>
+    </g>
+    <g id="Rectangle_1502" data-name="Rectangle 1502" transform="translate(442 274)" stroke="#707070" stroke-width="1">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="0.5" y="0.5" width="49" height="49" fill="none"/>
+    </g>
+    <g id="Shopping_cart" data-name="Shopping cart" transform="translate(353.626 61.2)">
+      <path id="Path_5" data-name="Path 5" d="M-170.906,104.36l7.963,22.479h18.854l7.019-22.479Z" transform="translate(170.906 -95.765)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+      <path id="v" d="M-168.125,105.169s-3.438-7.513,10.029-7.71,10.62,7.71,10.62,7.71" transform="translate(174.631 -97.456)" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+    <g id="Search" transform="translate(298.92 61.39)">
+      <ellipse id="Oval" cx="12.591" cy="13.282" rx="12.591" ry="13.282" stroke-width="2" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+      <line id="Shape" x1="9.209" y1="8.713" stroke-width="2" transform="translate(21.977 22.171)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+    <g id="Menu_Bar" data-name="Menu Bar" transform="translate(244.825 69.5)">
+      <path id="Line" d="M0,1H30.276" transform="translate(0 -1)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Line-2" data-name="Line" d="M0,1H30.276" transform="translate(0 10.557)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Line-3" data-name="Line" d="M0,1H30.276" transform="translate(0 22.114)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="Rectangle_1503" data-name="Rectangle 1503" transform="translate(161 138)" fill="#3bd063" stroke="#3bd063" stroke-linejoin="round" stroke-width="4">
+      <rect width="229" height="51" rx="23" stroke="none"/>
+      <rect x="2" y="2" width="225" height="47" rx="21" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#S_E_E_A_L_L_C_U_P_S_)">
+      <text id="S_E_E_A_L_L_C_U_P_S_2" data-name="S E E   A L L  C U P S     " transform="translate(184 150)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="16" xml:space="preserve">S E E   A L L  C U P S     </tspan></text>
+    </g>
+    <g id="Antal" transform="translate(-2688 -38.956)">
+      <rect id="Rectangle_1466" data-name="Rectangle 1466" width="120" height="37" rx="13" transform="translate(2955 258.956)" fill="#e6e6e6"/>
+      <ellipse id="Ellipse_250" data-name="Ellipse 250" cx="11.5" cy="11" rx="11.5" ry="11" transform="translate(2972 266.956)" fill="#3bd063"/>
+      <ellipse id="Ellipse_251" data-name="Ellipse 251" cx="11.5" cy="11" rx="11.5" ry="11" transform="translate(3032 266.956)" fill="#3bd063"/>
+      <text id="_-" data-name="-" transform="translate(2968 264.956)" fill="#fff" font-size="20" font-family="ArialMT, Arial"><tspan x="11.67" y="18">-</tspan></text>
+      <text id="_1" data-name="1" transform="translate(2999 263.956)" font-size="25" font-family="ArialMT, Arial"><tspan x="6.048" y="23">1</tspan></text>
+      <text id="_" data-name="+" transform="translate(3034 266.956)" fill="#fff" font-size="20" font-family="ArialMT, Arial"><tspan x="3.66" y="18">+</tspan></text>
+    </g>
+    <g id="Instagram" transform="translate(143 74)" clip-path="url(#clip-path)">
+      <path id="Path_3" data-name="Path 3" d="M8,1.422a24.53,24.53,0,0,1,3.2.089,4.123,4.123,0,0,1,1.511.267,3.122,3.122,0,0,1,1.511,1.511A4.123,4.123,0,0,1,14.489,4.8c0,.8.089,1.067.089,3.2a24.53,24.53,0,0,1-.089,3.2,4.123,4.123,0,0,1-.267,1.511,3.122,3.122,0,0,1-1.511,1.511,4.123,4.123,0,0,1-1.511.267c-.8,0-1.067.089-3.2.089a24.53,24.53,0,0,1-3.2-.089,4.123,4.123,0,0,1-1.511-.267,3.122,3.122,0,0,1-1.511-1.511A4.123,4.123,0,0,1,1.511,11.2c0-.8-.089-1.067-.089-3.2a24.53,24.53,0,0,1,.089-3.2,4.123,4.123,0,0,1,.267-1.511A3.192,3.192,0,0,1,2.4,2.4a1.5,1.5,0,0,1,.889-.622A4.123,4.123,0,0,1,4.8,1.511,24.53,24.53,0,0,1,8,1.422M8,0A26.264,26.264,0,0,0,4.711.089,5.488,5.488,0,0,0,2.756.444a3.48,3.48,0,0,0-1.422.889A3.48,3.48,0,0,0,.444,2.756,4.05,4.05,0,0,0,.089,4.711,26.264,26.264,0,0,0,0,8a26.264,26.264,0,0,0,.089,3.289,5.488,5.488,0,0,0,.356,1.956,3.48,3.48,0,0,0,.889,1.422,3.48,3.48,0,0,0,1.422.889,5.488,5.488,0,0,0,1.956.356A26.264,26.264,0,0,0,8,16a26.264,26.264,0,0,0,3.289-.089,5.488,5.488,0,0,0,1.956-.356,3.729,3.729,0,0,0,2.311-2.311,5.488,5.488,0,0,0,.356-1.956C15.911,10.4,16,10.133,16,8a26.264,26.264,0,0,0-.089-3.289,5.488,5.488,0,0,0-.356-1.956,3.48,3.48,0,0,0-.889-1.422A3.48,3.48,0,0,0,13.244.444,5.488,5.488,0,0,0,11.289.089,26.264,26.264,0,0,0,8,0M8,3.911A4.023,4.023,0,0,0,3.911,8,4.089,4.089,0,1,0,8,3.911m0,6.756A2.619,2.619,0,0,1,5.333,8,2.619,2.619,0,0,1,8,5.333,2.619,2.619,0,0,1,10.667,8,2.619,2.619,0,0,1,8,10.667m4.267-7.911a.978.978,0,1,0,.978.978.986.986,0,0,0-.978-.978" fill-rule="evenodd"/>
+    </g>
+    <g id="Facebook" transform="translate(120 74)">
+      <rect id="Rectangle_1458" data-name="Rectangle 1458" width="16" height="16" fill="none"/>
+      <path id="Path_1" data-name="Path 1" d="M85.422,16V8.711h2.489l.356-2.844H85.422V4.089c0-.8.267-1.422,1.422-1.422h1.511V.089C88,.089,87.111,0,86.133,0a3.431,3.431,0,0,0-3.644,3.733V5.867H80V8.711h2.489V16Z" transform="translate(-76)" fill-rule="evenodd"/>
+    </g>
+    <g id="Places" transform="translate(198 74)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_305" data-name="Rectangle 305" width="16" height="16" fill="none"/>
+      <path id="Path_114" data-name="Path 114" d="M6.58,9.47A2.786,2.786,0,0,0,9.371,6.679,2.872,2.872,0,0,0,6.58,3.788,2.786,2.786,0,0,0,3.788,6.579,2.942,2.942,0,0,0,6.58,9.47ZM1.894,1.894a6.626,6.626,0,0,1,9.371,9.371L6.58,15.95,1.894,11.265A6.807,6.807,0,0,1,1.894,1.894Z" transform="translate(0.975 0.05)" fill="#008323" fill-rule="evenodd"/>
+    </g>
+    <g id="Phone" transform="translate(166 74)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_320" data-name="Rectangle 320" width="16" height="16" fill="none"/>
+      <path id="Path_110" data-name="Path 110" d="M9.286,11.429,11,9.857a.525.525,0,0,1,.429-.143l.286.143,4,1.857c.286.143.286.286.286.571a3.622,3.622,0,0,1-1.143,2.571,4.092,4.092,0,0,1-3,1.143,8.7,8.7,0,0,1-4-1,18.727,18.727,0,0,1-4-2.857A24.333,24.333,0,0,1,1.714,9,19.747,19.747,0,0,1,.286,5.857,8.791,8.791,0,0,1,0,3.143,3.754,3.754,0,0,1,1,1,4.344,4.344,0,0,1,3.714,0a.742.742,0,0,1,.571.286l2.143,4a.5.5,0,0,0,.143.286A.525.525,0,0,1,6.429,5L4.571,6.714a.638.638,0,0,0,0,.714A13.642,13.642,0,0,0,6.286,9.714a14.424,14.424,0,0,0,2.286,1.857C8.857,11.714,9.143,11.714,9.286,11.429Z" fill="#008323"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1207 @@
+/***** GENERELLE INDSTILLINGER START *****/
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+body {
+    margin: 0.1px;
+    padding: 0;
+    line-height: 0;
+    /*    background-color: #F2EFEF;*/
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.9rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+    user-select: none;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: titling-gothic-fb-condensed, sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    user-select: none;
+
+
+}
+
+h3 {
+    font-family: titling-gothic-fb-condensed, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+figcaption {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+    margin-left: 10px;
+}
+
+a {
+
+    font-family: titling-gothic-fb-condensed, sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+
+/***** GENERELLE INDSTILLINGER SLUT *****/
+
+/***** MENUBAR START *****/
+
+.hidden {
+    transform: scale(0);
+}
+
+#menuknap {
+    position: relative;
+    display: inline-block;
+    width: 3rem;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+
+
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 1s;
+    transform-origin: top right;
+    position: absolute;
+    min-width: 170px;
+    background-color: #000000;
+    z-index: 1;
+    right: 2rem;
+    top: 2.7rem;
+}
+
+#menu a {
+    font-family: titling-gothic-fb-condensed, sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    line-height: 1.6;
+
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+
+.siteheader {
+    display: none;
+
+}
+
+
+
+.mobilenav {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+
+}
+
+header {
+    width: 100%;
+    display: inline;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+/***** FOOTER START *****/
+footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+}
+
+footer .sectionwrapper {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    justify-content: space-around;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+footer .sectionwrapper .col {
+    padding: 0;
+    /*    padding: 0 40px;*/
+}
+
+
+footer .col img {
+    height: 50px;
+    width: 50px;
+    padding: 4px 6px 10px 0;
+    margin: 10px;
+
+}
+
+
+footer p,
+footer a,
+footer h2 {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer h2 {
+    font-size: .8rem;
+}
+
+footer p,
+footer a {
+    font-size: 0.75rem;
+}
+
+
+
+/***** FOOTER SLUT ****/
+
+
+/****** PORTFOLIO START *****/
+
+
+
+
+#portfolio .col {
+
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    position: relative;
+    text-align: center;
+    color: white;
+
+
+}
+
+#portfolio .centered {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    pointer-events: none;
+}
+
+#portfolio .centered h2:hover {
+    color: white;
+}
+
+
+
+#portfolio .colorboxtext {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    /*    font-size: 1.8rem;*/
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 7px;
+    pointer-events: none;
+    font-size: 1.8rem;
+
+}
+
+#portfolio h1 {
+    text-align: center;
+    margin-top: 170px;
+}
+
+#portfolio h2 {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+#portfolio img:hover {
+    transition: .5s ease;
+    transform: scale(1.3) translateY(14px);
+}
+
+
+
+
+
+
+
+/****** PORTFOLIO SLUT *****/
+
+/***** TILFÆLLES INDSTILLINGER START *****/
+
+
+.splash_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.web_splash {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-top: 50px;
+}
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**** BUTTONS *****/
+.button a {
+    width: 10rem;
+    height: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    /*
+    margin-top: 20px;
+    margin-right: 30px;
+*/
+    /*    padding: 22px;*/
+    transition-duration: 0.4s;
+
+
+}
+
+.button a:hover {
+    color: black;
+}
+
+#web .button a {
+
+    background-color: #F67280;
+
+
+}
+
+#ux .button a {
+
+    background-color: #C06C84;
+    margin-top: 100px;
+
+}
+
+
+#indhold .button a {
+
+    background-color: #35477D;
+
+
+}
+
+
+#animation .button a {
+
+    background-color: #6C5B7B;
+
+
+}
+
+
+
+.sectionwrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#portfolio .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#om .sectionwrapper {
+    margin: 40px;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+
+.col_narrow {
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+.col_wide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    flex-basis: 800px;
+
+}
+
+
+.col_pic {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.col_right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+.col_left {
+
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+/***** BUTTONS SLUT ****/
+
+/***** MICROCOPIES ****/
+
+.arrow_small {
+    width: 15%;
+
+}
+
+
+
+.arrow_smaller {
+    width: 8%;
+    position: sticky;
+    z-index: 3;
+    top: 20px;
+    left: 30px;
+    margin-top: 60px;
+    margin-left: 8px;
+}
+
+#web .arrow_small {
+    margin-top: 30px;
+}
+
+#indhold .arrow_small,
+#ux .arrow_small {
+    margin-top: 40px;
+
+}
+
+#animation .arrow_small {
+    margin-top: 245px;
+}
+
+
+
+/***** MICROCOPIES ****/
+
+/***** TILFÆLLES INDSTILLINGER SLUT *****/
+/***** OM START *****/
+
+#om img {
+    width: 50%;
+    margin-left: 80px;
+
+
+}
+
+
+
+/***** OM SLUT *****/
+
+/***** WEB START *****/
+
+
+
+
+
+
+#web h2 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#web img {
+    padding: 10px;
+}
+
+#web p {
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/***** WEB SLUT *****/
+
+/***** UX START *****/
+
+
+#ux h2 {
+    margin-top: 50px;
+
+    text-align: center;
+}
+
+#ux img {
+    padding: 10px;
+}
+
+#ux p {
+    padding: 15px;
+}
+
+
+
+
+/***** UX SLUT *****/
+
+/*****ANIMATION START *****/
+
+#animation h2 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#animation img {
+    padding: 10px;
+}
+
+#animation p {
+    padding: 15px;
+}
+
+#animation .pig_container {
+    background-image: url(pictures/SVG/pig1.svg);
+    background-size: cover;
+    width: 20vw;
+    height: 19vw;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 100px;
+
+}
+
+.pig_animation {
+    animation-name: pig_animation_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes pig_animation_kf {
+    0% {
+        transform: rotate(3deg);
+    }
+
+    50% {
+        transform: rotate(-6deg);
+    }
+
+    100% {
+        transform: rotate(3deg);
+    }
+}
+
+.blueman_container {
+    width: 31vw;
+    height: 54vw;
+    background-image: url(pictures/SVG/kartoffel2_1.svg);
+    background-size: cover;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.position1 {
+    top: 55%;
+    left: 34%;
+}
+
+
+
+/*****ANIMATION SLUT *****/
+
+/*****INDHOLD START *****/
+
+
+#indhold h2 {
+    margin-top: 120px;
+    text-align: center;
+}
+
+#indhold img {
+    padding: 10px;
+}
+
+#indhold p {
+    padding: 15px;
+}
+
+
+#indhold .hide {
+    display: none;
+}
+
+.pic1_slide,
+.pic2_slide,
+.pic3_slide,
+.pic4_slide,
+.pic5_slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 400px;
+
+}
+
+.pic1_slide {
+    background-image: url(pictures/SVG/pic1.svg);
+
+}
+
+.pic2_slide {
+    background-image: url(pictures/SVG/pic2.svg);
+
+}
+
+.pic3_slide {
+    background-image: url(pictures/SVG/pic3.svg);
+
+}
+
+.pic4_slide {
+    background-image: url(pictures/SVG/pic4.svg);
+
+}
+
+.pic5_slide {
+    background-image: url(pictures/SVG/pic5.svg);
+
+}
+
+#indhold .right {
+    margin-left: 0px;
+}
+
+
+
+/*****INDHOLD SLUT *****/
+
+/***** EFFEKTER *****/
+
+.beat {
+    animation-name: beat_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes beat_kf {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
+}
+
+
+/***** MEDIA QUERIES START *****/
+
+
+
+/****** Media Query Desktop ******/
+
+
+/***** MENU BAR DESKTOP START *****/
+@media only screen and (min-width: 945px) {
+    .mobilenav {
+        display: none;
+    }
+
+    .sectionwrapper {
+        margin-top: 100px;
+        padding: 20px 100px 20px 100px;
+    }
+
+    header {
+        width: 100%;
+        display: inline;
+        position: fixed;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .siteheader {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        line-height: 1.2rem;
+        background-size: cover;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .siteheader a:hover {
+        color: white;
+    }
+
+    header .portfolie:hover {
+        color: white;
+    }
+
+    /*ingen streg under links*/
+    header nav a {
+        text-decoration: none;
+        padding-right: 2rem;
+    }
+
+    header a {
+        line-height: 1.2rem;
+        font-size: 22px;
+    }
+
+
+    /*
+    .siteheader nav {
+        margin-right: 2.5rem;
+    }
+*/
+
+
+    /***** MENU BAR DESKTOP SLUT *****/
+    /****** PORTFOLIO DESKTOP START *****/
+
+    #portfolio .sectionwrapper {
+        padding: 0px 100px 100px 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #portfolio img {
+        width: 100%;
+    }
+
+    #portfolio .col {
+        margin: 20px;
+    }
+
+    .logo {
+        margin-left: 90px;
+        margin-bottom: 20px;
+
+    }
+
+
+    .font_weight {
+        font-weight: 100;
+    }
+
+    .rotate_logo {
+        animation-name: rotate_logo_kf;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-timing-function: linear;
+
+    }
+
+    @keyframes rotate_logo_kf {
+        0% {
+            transform: rotateX(0) translateX(-2.5px);
+
+
+        }
+
+        10% {
+            transform: rotateX(0) translateX(-2.5px);
+
+
+        }
+
+        50% {
+            transform: rotateX(3.142rad) translateX(2.5px);
+
+
+        }
+
+        60% {
+            transform: rotateX(3.142rad) translateX(2.5px);
+
+
+        }
+
+        100% {
+            transform: rotateX(0) translateX(-2.5px);
+
+
+        }
+
+
+    }
+
+
+
+
+    .move_logo {
+        animation-name: move_logo_kf;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-timing-function: linear;
+    }
+
+    @keyframes move_logo_kf {
+        0% {
+
+            transform: translateX(-0.5px);
+
+        }
+
+        50% {
+
+            transform: translateX(.5px);
+
+        }
+
+        100% {
+
+            transform: translateX(-0.5px);
+
+        }
+
+    }
+
+    /****** PORTFOLIO DESKTOP SLUT *****/
+
+
+
+    /***** DESKTOP TILFÆLLES INDSTILLINGER *****/
+    #web h1 {
+        margin-top: 150px;
+        font-size: 10rem;
+        padding-bottom: 100px;
+
+    }
+
+    .col_narrow,
+    .col_wide,
+    .col_left,
+    .col_right,
+    .col {
+        margin-top: 120px;
+    }
+
+    .topmargin {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    #ux h1 {
+        margin-top: 130px;
+        font-size: 10rem;
+        padding-bottom: 100px;
+    }
+
+
+
+    #web .web_splash img,
+    #animation .web_splash img,
+        {
+        width: 10%;
+        margin-top: 130px;
+        margin-left: 120px;
+        margin-right: 160px;
+    }
+
+    #indhold .web_splash img {
+        width: 70%;
+        /*        margin-left: 120px;*/
+        /*        margin-right: 120px;*/
+
+    }
+
+
+    #web .arrow_small,
+    #ux .arrow_small {
+        width: 4%;
+        margin-top: -70px;
+
+    }
+
+    .arrow_smaller {
+        width: 2.3%;
+        margin-left: 30px;
+    }
+
+    .margin {
+        margin-top: 90px;
+    }
+
+    .web_splash h2 {
+        padding-top: -40px;
+    }
+
+
+    .sectionwrapper {
+        padding: 20px 100px 20px 100px;
+    }
+
+    /**** BUTTONS *****/
+    .button a {
+        width: 10rem;
+        height: 1rem;
+
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding: 20px;
+        margin-left: 10px;
+
+    }
+
+    /***** OM DESKTOP START *****/
+    #om img {
+        margin-left: 170px;
+
+    }
+
+    #om h3 {
+        font-size: 4rem;
+    }
+
+    /***** OM DESKTOP SLUT *****/
+
+
+    /***** WEB DESKTOP START *****/
+
+    #web .web_splash {
+
+        margin-top: 0px;
+    }
+
+    #web .img {
+        width: 60%;
+    }
+
+    #web p,
+    #ux p,
+    #animation p,
+    #indhold p {
+        margin-bottom: 50px;
+        letter-spacing: 1px;
+    }
+
+    #ux h3 {
+        letter-spacing: 1.5px;
+    }
+
+
+
+
+
+    /***** WEB DESKTOP SLUT *****/
+
+    /***** UX DESKTOP START *****/
+    #ux h2 {
+        margin-top: 120px;
+    }
+
+    #ux img {
+        margin-top: 0px;
+
+
+    }
+
+    #ux .web_splash img {
+        width: 70%;
+        margin-bottom: 30px;
+        margin-left: 120px;
+        margin-right: 160px;
+
+    }
+
+
+
+
+
+    /***** UX DESKTOP SLUT *****/
+
+
+    /***** ANIMATION DESKTOP START *****/
+    #animation h1 {
+        font-size: 5rem;
+        margin-left: 90px;
+    }
+
+    #animation .arrow_small {
+        width: 4%;
+        margin-top: 70px;
+
+    }
+
+    #animation .web_splash {
+        padding-left: 0px;
+    }
+
+
+    .blueman_container {
+        width: 11vw;
+        height: 19vw;
+        background-image: url(pictures/SVG/kartoffel2_1.svg);
+        background-size: cover;
+        position: absolute;
+    }
+
+    .position0 {
+        top: -18vw;
+        right: 0vw;
+    }
+
+    .moveBlueman {
+        animation-name: moveBlueman_kf;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+        animation-timing-function: linear
+    }
+
+    @keyframes moveBlueman_kf {
+        0% {
+            transform: translate(0);
+
+        }
+
+        100% {
+            transform: translate(440px, 450px);
+        }
+
+
+    }
+
+
+
+
+    .word span {
+        cursor: pointer;
+        display: inline-block;
+        user-select: none;
+        line-height: .8;
+    }
+
+
+
+
+    .falling {
+        animation: falling 5s ease-out;
+        transform-origin: bottom center;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes falling {
+        12% {
+            transform: rotateX(240deg);
+        }
+
+        24% {
+            transform: rotateX(150deg);
+        }
+
+        36% {
+            transform: rotateX(200deg);
+        }
+
+        48% {
+            transform: rotateX(175deg);
+        }
+
+        60%,
+        85% {
+            transform: rotateX(180deg);
+        }
+
+        100% {
+            transform: rotateX(180deg);
+        }
+    }
+
+    .delay1 {
+        animation-delay: .2s;
+    }
+
+    .delay2 {
+        animation-delay: .4s;
+    }
+
+    .delay3 {
+        animation-delay: .6s;
+
+    }
+
+    .delay4 {
+        animation-delay: .8s;
+    }
+
+    .delay5 {
+        animation-delay: 1s;
+    }
+
+    .delay6 {
+        animation-delay: 1.2s;
+    }
+
+    .delay7 {
+        animation-delay: 1.4s;
+    }
+
+    .delay8 {
+        animation-delay: 1.6s;
+    }
+
+    .delay9 {
+        animation-delay: 1.8s;
+    }
+
+    .delay10 {
+        animation-delay: 2s;
+    }
+
+
+
+
+
+
+    /***** ANIMATION DESKTOP SLUT *****/
+
+    /***** INDHOLD DESKTOP START *****/
+    #indhold h1 {
+        font-size: 7rem;
+
+    }
+
+    #indhold h2 {
+        margin-top: 130px;
+    }
+
+    #indhold .arrow_small {
+        width: 4%;
+        margin-top: 30px;
+
+    }
+
+    #indhold .pic1_slide,
+    #indhold .pic2_slide,
+    #indhold .pic3_slide,
+    #indhold .pic4_slide,
+    #indhold .pic5_slide {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 52vh;
+        width: 36vw;
+
+    }
+
+
+
+
+
+    #indhold .right {
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+
+    #indhold .left {
+        margin-left: 50px;
+
+    }
+
+
+
+
+    /***** INDHOLD DESKTOP SLUT *****/
+
+
+
+
+}
+
+/***** MEDIA QUERIES SLUT *****/
