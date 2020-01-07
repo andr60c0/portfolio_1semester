@@ -395,14 +395,19 @@ section {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 3;
-    flex-basis: 800px;
+    flex-basis: 900px;
 
 }
 
 
 .col_pic {
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 300px;
+}
+
+
+.ipad {
+    width: 50%;
 }
 
 .col_right {
@@ -458,6 +463,10 @@ section {
 
 #animation .arrow_small {
     margin-top: 245px;
+}
+
+.uparrow {
+    margin-top: 100px;
 }
 
 
@@ -695,7 +704,15 @@ section {
         display: none;
     }
 
-    .sectionwrapper {
+    footer .sectionwrapper {
+        margin: 0 0 0 0;
+    }
+
+    #web.sectionwrapper,
+    #animation .sectionwrapper,
+    #ux .sectionwrapper,
+    #portfolio .sectionwrapper,
+    #indhold .sectionwrapper {
         margin-top: 100px;
         padding: 20px 100px 20px 100px;
     }
@@ -856,6 +873,8 @@ section {
 
 
     /***** DESKTOP TILFÆLLES INDSTILLINGER *****/
+
+
     #web h1 {
         margin-top: 150px;
         font-size: 10rem;
@@ -871,10 +890,8 @@ section {
         margin-top: 120px;
     }
 
-    .topmargin {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 100px;
+    footer .col {
+        margin-top: 0;
     }
 
     #ux h1 {
@@ -886,8 +903,7 @@ section {
 
 
     #web .web_splash img,
-    #animation .web_splash img,
-        {
+    #animation .web_splash img {
         width: 10%;
         margin-top: 130px;
         margin-left: 120px;
@@ -896,9 +912,8 @@ section {
 
     #indhold .web_splash img {
         width: 70%;
-        /*        margin-left: 120px;*/
-        /*        margin-right: 120px;*/
 
+        margin-right: 120px;
     }
 
 
@@ -918,9 +933,6 @@ section {
         margin-top: 90px;
     }
 
-    .web_splash h2 {
-        padding-top: -40px;
-    }
 
 
     .sectionwrapper {
@@ -957,10 +969,13 @@ section {
     #web .web_splash {
 
         margin-top: 0px;
+
     }
 
-    #web .img {
-        width: 60%;
+    #web .web_splash img {
+        width: 70%;
+        margin-top: 100px;
+        margin-left: 50px;
     }
 
     #web p,
@@ -993,12 +1008,13 @@ section {
     }
 
     #ux .web_splash img {
-        width: 70%;
+        width: 60%;
         margin-bottom: 30px;
         margin-left: 120px;
         margin-right: 160px;
 
     }
+
 
 
 
@@ -1193,6 +1209,8 @@ section {
         margin-left: 50px;
 
     }
+
+
 
 
 
