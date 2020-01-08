@@ -378,7 +378,11 @@ footer a {
 
 
 
-.sectionwrapper {
+#om .sectionwrapper,
+#web .sectionwrapper,
+#indhold .sectionwrapper,
+#ux .sectionwrapper,
+#animation .sectionwrapper {
     margin: 40px;
 }
 
