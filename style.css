@@ -365,6 +365,8 @@ footer a {
 
 .sectionwrapper {
     margin-top: 40px;
+
+
     display: flex;
     flex-wrap: wrap-reverse;
 }
@@ -376,7 +378,7 @@ footer a {
 
 
 
-#om .sectionwrapper {
+.sectionwrapper {
     margin: 40px;
 }
 
